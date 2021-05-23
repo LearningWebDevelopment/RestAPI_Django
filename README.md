@@ -70,3 +70,37 @@ Ensure you are connected to the Vagrant box and working on a Virtual Environment
 **Updating Packages**   
 `pip install --upgrade <package-name>`   
 
+### Django Admin CLI
+Ensure that you are working on the virtual environment and then Django python package is installed.   
+
+**Create Django Project**
+`django-admin startproject <project_name> .`
+*note - dot at the end will avoid creating sub folder*
+
+### Django Management CLI
+Ensure you are working on the Virtual environment, Django is installed and you are switched to the root of your Django project (where the manage.py​ file is).   
+
+**Create Django App**   
+`python manage.py startapp <app_name>`   
+
+**Create Django Migrations**   
+`python manage.py makemigrations`   
+
+**Run Django Migrations**   
+`python manage.py migrate`   
+
+**Create Django Superuser**   
+`python manage.py createsuperuser`   
+
+**Resetting Superuser Password**   
+`python manage.py changepassword <email>`    
+
+Add Created apps in project settings
+
+**Run Server**   
+run server in VMBox
+`python manage.py runserver 0.0.0.0:8000`   
+
+**Access Url**
+http://127.0.0.1:8000/
+
