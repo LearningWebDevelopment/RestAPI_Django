@@ -23,3 +23,6 @@
 `sudo apt-get update && sudo apt-get install vagrant`
 
 [Download Vagrant Os Box from Here](https://app.vagrantup.com/ubuntu/boxes/focal64 "Vagrant Ubuntu Box Page")
+In project folder - initialize vagrant in terminal 
+`vagrant init ubuntu/focal64`
+`vagrant up`
