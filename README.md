@@ -42,3 +42,31 @@ To access it login to developer server and go to
 `cd /vagrant/`
 
 check files using `ls`
+
+### Create virtual environment in VMBox   
+Create  
+`python -m venv ~/env`  
+Activate Virtual Env   
+`source ~/env/bin/activate`
+Deactivate Virtual Env   
+`deactivate`   
+
+### Python PIP
+Here are some useful commands for working with the PIP Python Package Manager.   
+Ensure you are connected to the Vagrant box and working on a Virtual Environment.    
+   
+**Installing Packages**   
+`pip install <package-name>`   
+
+**Saving Packages**   
+`pip freeze > <destination/requirements.txt>`   
+
+**Installing from Requirements File**   
+`pip install -r <source/requirements.txt>`   
+
+**Removing Packages**   
+`pip uninstall <package-name>`   
+
+**Updating Packages**   
+`pip install --upgrade <package-name>`   
+
