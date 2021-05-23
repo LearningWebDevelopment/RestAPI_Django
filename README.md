@@ -23,6 +23,22 @@
 `sudo apt-get update && sudo apt-get install vagrant`
 
 [Download Vagrant Os Box from Here](https://app.vagrantup.com/ubuntu/boxes/focal64 "Vagrant Ubuntu Box Page")
-In project folder - initialize vagrant in terminal 
-`vagrant init ubuntu/focal64`
-`vagrant up`
+
+In project folder - initialize vagrant in terminal  
+`vagrant init ubuntu/focal64`  
+configure vagrant file in the folder created by the above command  
+`vagrant up`  
+
+##### *NOTE - Please run in an external terminal not in VSCode terminal!!!*   
+
+To connect to th VMBox  
+`vagrant ssh`
+
+To return to your machine  
+`exit`  
+
+There is folder the developer server created above that is synced with our folder   
+To access it login to developer server and go to   
+`cd /vagrant/`
+
+check files using `ls`
