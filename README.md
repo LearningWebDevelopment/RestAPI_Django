@@ -101,6 +101,13 @@ Add Created apps in project settings
 run server in VMBox
 `python manage.py runserver 0.0.0.0:8000`   
 
-**Access Url**
-http://127.0.0.1:8000/
+**Access Url**   
+http://127.0.0.1:8000/   
 
+## Setup the database
+Created custom user model and user model manager.   
+Added the new model to settings file.   
+Made migrations to db.
+
+`python manage.py makemigrations <app_name>`   
+'python manage.py migrate'
