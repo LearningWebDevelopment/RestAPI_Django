@@ -141,3 +141,7 @@ Run server and go to
 - Full control of logic
 - Processing files and rendering a sync response
 - Accessing local files and data  
+
+Note : serializer_class should be there to override default serializer method provided by django  
+view.py  
+serializer_class = serializers.HelloSerializer
