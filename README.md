@@ -110,4 +110,15 @@ Added the new model to settings file.
 Made migrations to db.
 
 `python manage.py makemigrations <app_name>`   
-'python manage.py migrate'
+`python manage.py migrate`   
+
+## Setup django admin   
+`python manage.py createsuperuser`   
+email: t****@sla******.com   
+pass: pa*****123   
+
+Add every new model to admin file of the respective app   
+
+## Test django admin   
+Run server and go to   
+http://127.0.0.1:8000/admin/   
